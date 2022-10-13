@@ -1,0 +1,37 @@
+.btn {
+  margin: 5px;
+  width: 233px;
+  height: 56px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+}
+.btn-white {
+  background: white;
+  color: #5c98f1;
+  border: 1px solid #5c98f1;
+}
+.btn-blue {
+  color: white;
+  background: #5c98f1;
+}
+.btn-blue:hover {
+  background: #4583de;
+}
+.btn-blue:active {
+  background: #2c6ac7;
+}
+.btn-white:hover {
+  background: #f3f8ff;
+}
+.btn-white:active {
+  background: #dfecff;
+}
+.btn-blue:disabled {
+  background: #d1d1d1;
+}
+.btn-white:disabled {
+  background: white;
+  color: #d1d1d1;
+  border: 1px solid #d1d1d1;
+}
