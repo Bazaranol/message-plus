@@ -1,9 +1,13 @@
-import React from "react";
-
+import React, { useState } from "react";
+import "./input.css";
 interface IInput {
-  text?: string;
+  placeholder: string;
 }
 
-export const Input: React.FC<IInput> = ({ text }) => {
-  return <div>Input</div>;
+export const Input: React.FC<IInput> = ({ placeholder }) => {
+  return (
+    <form>
+      <input type="text" placeholder={placeholder} className={"inputLogin"} />
+    </form>
+  );
 };
