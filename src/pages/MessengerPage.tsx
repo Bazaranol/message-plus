@@ -1,11 +1,11 @@
 import React from "react";
-import { Button } from "../components/atoms/Button";
+import { Button } from "../components/atoms/button/Button";
 
 export const MessengerPage: React.FC = () => {
   return (
     <div>
-      MessengerPage
-      <Button text={"What"} />
+      <Button text={"What"} base={"white"} />
+      <Button text={"Blue"} base={"blue"} />
     </div>
   );
 };
