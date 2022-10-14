@@ -1,0 +1,10 @@
+.logo--main {
+  width: 120px;
+  height: 50px;
+  box-sizing: border-box;
+  background-image: url(./logo.svg);
+  background-repeat: no-repeat;
+}
+.header > .logo--main {
+  margin-left: 24px;
+}

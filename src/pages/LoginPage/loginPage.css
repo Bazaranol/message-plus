@@ -1,0 +1,69 @@
+.login-page {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-block {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-block {
+  width: 50%;
+  height: 100%;
+  background-color: #eff5ff;
+}
+.login-background {
+  min-height: 100vh;
+  width: 100%;
+  background: url(./bg-image.svg) center / cover no-repeat;
+}
+
+.login-page--mobile {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .login-page--mobile {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .login-page {
+    display: none;
+  }
+  .login-background--mobile {
+    height: 300px;
+    width: 100%;
+    background-size: 100%;
+    background-image: url(./bg-image.svg);
+    background-repeat: no-repeat;
+  }
+  .top-block {
+    display: flex;
+    align-items: flex-end;
+    background-color: #eff5ff;
+    height: 50%;
+    width: 100%;
+    background-size: 100%;
+    background-image: url(./bg-image.svg);
+    background-repeat: no-repeat;
+  }
+  .bottom-block {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+    height: 50%;
+  }
+  .title-block {
+    margin-left: 20px;
+  }
+  .btn1 {
+    width: 100%;
+    margin: 0;
+  }
+}
